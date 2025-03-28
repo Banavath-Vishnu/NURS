@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = () => {
 
-  const URL = "mongodb+srv://vishnu:vishnu@nurs.cirf4ii.mongodb.net/?retryWrites=true&w=majority&appName=NURS"
+  const URL = "Your_Mongo_URL"
 
   mongoose.connect(URL).then(() => {
     console.log("DataBase connected Successfully")
